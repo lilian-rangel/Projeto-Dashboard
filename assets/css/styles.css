@@ -150,10 +150,21 @@ main {
     border-radius: 2px;
 }
 
-.card-single span:last-child {
+.card-single div:last-child span{
+    font-size: 3rem;
+    color: var(--main-color);
+}
+
+.card-single div:first-child span{
     color: var(--text-grey);
 }
 
-.card-single span:first-child {
-    font-size: 3rem;
+.card-single:last-child {
+    background: var(--main-color);
+}
+
+.card-single:last-child h1,
+.card-single:last-child div:first-child span,
+.card-single:last-child div:last-child span{
+    color: #fff;
 }
